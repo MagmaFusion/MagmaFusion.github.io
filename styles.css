@@ -61,12 +61,6 @@ header p {
 	margin-bottom: 2%;
 }
 
-@media only screen and (max-width: 460px) {
-	#menubar {display: flex;}
-	#menubar {flex-direction: column;)
-
-}
-
 nav {
 	position: -webkit-sticky;
 	position: sticky;
@@ -94,6 +88,12 @@ nav {
 	text-decoration: none;
 	margin: 20px 40px;
 } 
+
+@media only screen and (max-width: 460px) {
+	#menubar {display: flex;}
+	#menubar {flex-direction: column;)
+	#menubar li {float: right;}
+}
 
 #menubar li:hover {
 	background-color: #111111;
