@@ -87,7 +87,7 @@ nav {
 }
 
 #menubar li a {
-	/*display: inline-block;*/
+	display: inline-block;
 	color: white;
 	font-size: large;
 	font-align: center;
