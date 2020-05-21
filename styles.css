@@ -282,6 +282,18 @@ ul.single-socials {
 	}
 }
 
-
+@media only screen and (min-width: 600px) {
+	#siteinfo {
+		background-color: #191970;
+		background-image: url("Assets/images/footer-banner.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		padding-top: 1%;
+		padding-bottom: 2%;
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+}
 
 
