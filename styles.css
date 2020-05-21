@@ -289,5 +289,7 @@ ul.single-socials {
 		font-size: large;
 		margin: 6px 15px;
 	}
-
+	#social-icons-list {
+		display: none;
+	}
 }
