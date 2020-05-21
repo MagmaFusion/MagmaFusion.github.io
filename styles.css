@@ -88,17 +88,6 @@ nav {
 	margin: 20px 40px;
 } 
 
-
-@media only screen and (max-width: 600px) {
-	#menubar li a {
-		display: inline-block;
-		color: white;
-		font-size: large;
-		margin: 6px 15px;
-	{
-
-}
-
 #menubar li:hover {
 	background-color: #111111;
 }
@@ -292,3 +281,13 @@ ul.single-socials {
 	align-items: center;
 }
 
+
+@media only screen and (max-width: 600px) {
+	#menubar li a {
+		display: inline-block;
+		color: white;
+		font-size: large;
+		margin: 6px 15px;
+	}
+
+}
