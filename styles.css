@@ -43,7 +43,7 @@ h1 {
 
 h2 {
 	font-size: large;
-	padding-top; 0;
+	padding-top: 0;
 	padding-bottom: 0;
 
 }
@@ -61,14 +61,7 @@ header p {
 	margin-bottom: 2%;
 }
 
-/*@media only screen and (max-width: 460px) {
-	#menubar {display: flex;}
-	#menubar {flex-direction: column;)
-
-}*/
-
 nav {
-	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
@@ -90,10 +83,19 @@ nav {
 	display: inline-block;
 	color: white;
 	font-size: large;
-	font-align: center;
+	text-align: center;
 	text-decoration: none;
 	margin: 20px 40px;
 } 
+
+@media only screen and (max-width: 600px) {
+	#menubar li a {
+		font-size: xx-large;
+		margin: 10px 20px;
+	{
+
+}
+
 
 #menubar li:hover {
 	background-color: #111111;
@@ -194,7 +196,7 @@ th {
 	background-color: #dbdbdb;
 }
 
-thead th, {
+thead th {
 	background-color: #c7c7c7;
 }
 
@@ -287,5 +289,4 @@ ul.single-socials {
 	flex-direction: row;
 	align-items: center;
 }
-
 
